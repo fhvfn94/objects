@@ -7,6 +7,9 @@ public class Author {
         this.secondName = secondName;
     }
 
+    public String getFullName() {
+        return firstName + " " + secondName;
+    }
     public String getFirstName() {
         return this.firstName;
     }

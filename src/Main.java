@@ -3,5 +3,6 @@ public class Main {
         Author author1 = new Author("adsdsd", "fdfd");
         Book book1 = new Book("Qara so'zderi", 1904, author1);
         System.out.println(book1.toString());
+        System.out.println(author1.toString());
     }
 }

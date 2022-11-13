@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Author author1 = new Author("adsdsd", "fdfd");
+        Book book1 = new Book("Qara so'zderi", 1904, author1);
+        System.out.println(book1.toString());
+        System.out.println(author1.toString());
     }
 }
